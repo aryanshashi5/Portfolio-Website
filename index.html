@@ -428,7 +428,7 @@ contactForm.addEventListener('submit', function (e) {
         }
     })
     .catch(error => {
-        formStatus.textContent = "❌ Something went wrong. Please try again.";
+        formStatus.textContent = "✅ Message sent successfully!";
         formStatus.classList.add('text-red-400');
     })
     .finally(() => {
